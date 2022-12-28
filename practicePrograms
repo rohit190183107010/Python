@@ -1,0 +1,4 @@
+#Python practicePrograms
+name = input("What is your name : ")
+age = input("What is your age : ")
+print(f"Hello, {name}! and You are {age} years old!")
