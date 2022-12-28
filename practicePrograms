@@ -80,3 +80,45 @@ print(numbers.count(20))  # Output: 1
 # Create a new tuple based on the original tuple
 new_numbers = numbers[1:]
 print(new_numbers)  # Output: (20, 30, 40, 50)
+
+
+
+
+
+stu = {
+    'name':'rohit',
+    'age':24,
+    'courses':['Math','Physics']
+}
+print(stu['name'])
+#modify the value of age 
+stu['age'] = 25
+print(stu)
+
+stu = {
+    'name':'rohit',
+    'age':24,
+    'courses':['Math','Physics']
+}
+
+stu['phone'] = '555-555-5555'
+print(stu)
+
+
+stu = {
+    'name':'rohit',
+    'age':24,
+    'courses':['Math','Physics']
+}
+
+for key in stu:
+    print(key)
+    
+for value in stu:
+    print(value)
+    
+for key, value in stu.items():
+    print(key, value)
+
+
+
